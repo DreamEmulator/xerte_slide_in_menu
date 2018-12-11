@@ -37,5 +37,5 @@ div[aria-describedby=x_menu] {
 div[aria-describedby=x_menu].open {
     left: 0 !important;
     transition: transform 1s;
-    transform: translateX(0%)
+    transform: translateX(0%);
 }

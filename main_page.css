@@ -1,0 +1,41 @@
+/*Add this to the main CSS page of the Xerte Module*/
+#x_footerBlock #x_footerShowHide{
+    display: none !important;
+}
+
+#x_footerBlock .x_floatLeft {
+    display: none !important;
+}
+
+#x_footerBlock #x_footerRight {
+    width: 100%;
+}
+
+#x_footerBlock #x_footerRight  #x_menuBtn {
+    float: left !important;
+    margin-left:  20px  !important;
+}
+
+#x_footerBlock #x_pageControls {
+    float: right !important;
+}
+
+div[aria-describedby=x_menu] .ui-dialog-titlebar {
+    display: none !important;
+}
+
+#x_pageHolder {
+    overflow-x: hidden !important;
+}
+
+div[aria-describedby=x_menu] {
+    left: 0 !important;
+    transform: translateX(-100%);
+    transition: transform 0.5s;
+}
+
+div[aria-describedby=x_menu].open {
+    left: 0 !important;
+    transition: transform 1s;
+    transform: translateX(0%)
+}
